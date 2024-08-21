@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ anime['title'] }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script>
+        function loadEpisode(url) {
+            document.getElementById('episodePlayer').src = url;
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>My Anime Hub</h1>
+        <nav>
+            <a href="{{ url_for('index') }}">Hub</a>
+            <a href="{{ url_for('search') }}">Search</a>
+            <a href="https://t.me/bot_capt" target="_blank">Telegram</a>
+            <a href="https://send.monobank.ua/jar/JVZttKh8B" target="_blank">Donate</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="anime-detail">
+            <h2>{{ anime['title'] }}</h2>
+            <img src="{{ url_for('static', filename='images/' + anime['cover_image']) }}" alt="{{ anime['title'] }} cover">
+            <p>{{ anime['description'] }}</p>
+            
+            <div class="episode-list">
+                <h3>Episodes:</h3>
+                <ul>
+                    {% for episode in anime['episodes'] %}
+                    <li><a href="javascript:void(0);" onclick="loadEpisode('{{ episode }}')">Ep {{ loop.index }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
+    
+            <div class="episode-player">
+                <iframe id="episodePlayer" src="{{ anime['episodes'][0] }}" width="607" height="360" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 AnimeHub</p>
+    </footer>
+</body>
+</html>

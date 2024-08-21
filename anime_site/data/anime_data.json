@@ -1,0 +1,100 @@
+[
+    {
+        "title": "Naruto: Shippuden",
+        "cover_image": "naruto_cover.jpg",
+        "rating": "8.5",
+        "description": "A story about a young ninja...",
+        "episodes": [
+            "https://kodik.info/seria/940184/9f8291faa668c3357e0822ba23c3a366/720p",
+            "https://kodik.info/seria/940185/3631ab0b73128dae16f5c474381bad3f/720p",
+            "https://kodik.info/seria/940186/bd8fa0b72a288e25da308a476ec5f792/720p",
+            "https://kodik.info/seria/940187/9f339409858adfef32f2b2c035021489/720p"
+        ]
+    },
+    {
+        "title": "Attack on Titan",
+        "cover_image": "attack_on_titan_cover.jpg",
+        "rating": "9.0",
+        "description": "Humans battling giant humanoid Titans...",
+        "episodes": [
+            "https://kodik.info/seria/9902/e2eeee5465d6a0298d51639c95944d8b/720p",
+            "https://kodik.info/seria/9903/a52138c16712e824166bfdb0c28e9a9d/720p",
+            "https://kodik.info/seria/9904/3edc59b0b1e45512042a614d3bc8f838/720p",
+            "https://kodik.info/seria/9905/04c59ddc9d56f20516bac31d57c1e5e6/720p",
+            "https://kodik.info/seria/9906/8ca0d8c299546e6f49f8ec33e33ecfda/720p",
+            "https://kodik.info/seria/9907/3452a51ac6d6a26cefbe313bd2492bf2/720p",
+            "https://kodik.info/seria/9908/6e9643696307d69321ed4191dbebf713/720p",
+            "https://kodik.info/seria/9909/9d1fbabba7cb7a22eb9869ca1823ec0f/720p",
+            "https://kodik.info/seria/9910/e91e1706989812d62764fe9b6fc1cc6b/720p",
+            "https://kodik.info/seria/9911/44ef421fd6e5074fc33e940f6e97080f/720p",
+            "https://kodik.info/seria/9912/ef051fdb3fb9a449c78543be6dd00f83/720p",
+            "https://kodik.info/seria/9913/8a140aaf096b7034299a07e5f825a4f0/720p",
+            "https://kodik.info/seria/9914/503945cf2876167e41632a5ecde83150/720p",
+            "https://kodik.info/seria/9915/b48aa4540913bca1ca7875e394d0476b/720p",
+            "https://kodik.info/seria/9916/9764b555846c0b855212337d2bd15342/720p",
+            "https://kodik.info/seria/9917/8454da09e686b688b665d7c0e6368706/720p",
+            "https://kodik.info/seria/9918/db1bdaa52ac2842010da75cfe6875eb5/720p",
+            "https://kodik.info/seria/9919/d839312a8641ec489c164d78a606e612/720p",
+            "https://kodik.info/seria/9920/1b6780eb82925291c53618cad1b9f10b/720p",
+            "https://kodik.info/seria/9921/d8c3b5338aca343bdb7bc2fcf787e5c4/720p",
+            "https://kodik.info/seria/9922/8ccc65a0ff3aeb0bb8b549a7ff769bc2/720p",
+            "https://kodik.info/seria/9923/3e6f490f049d59c6c39474b29478e9e1/720p",
+            "https://kodik.info/seria/9924/28ebfe558a3754ed74eba217b574952e/720p",
+            "https://kodik.info/seria/9925/5002744694a928b8908fda7ed228f192/720p",
+            "https://kodik.info/seria/9926/2dd46387ef589c93064662bf8da4af1b/720p"
+        ]
+    },
+    {
+        "title": "One Piece",
+        "cover_image": "one_piece_cover.jpg",
+        "rating": "9.2",
+        "description": "A pirate's adventure in search of the One Piece...",
+        "episodes": [
+            "https://onepiece.com/video/1234/episode_1...",
+            "https://onepiece.com/video/1234/episode_2...",
+            "...more episode links"
+        ]
+    },
+    {
+        "title": "Overlord",
+        "cover_image": "overlord_cover.jpg",
+        "rating": "8.6",
+        "description": "The final hour of the popular virtual reality game Yggdrasil has come. ",
+        "episodes": [
+            "https://kodik.info/seria/198525/89d68b6afc07d76f36fd4db6ee51e8b8/720p",
+            "https://kodik.info/seria/198526/cad92256f1b625c1c387bbb3d98c51af/720p",
+            "https://kodik.info/seria/198527/d89e35a77bb367a5b53f6c529237bd62/720p",
+            "https://kodik.info/seria/198528/ce0d3ebdd2f8022a9ed8093759d74ec7/720p",
+            "https://kodik.info/seria/198529/5c730be438dd4899238a188ffc37be7a/720p",
+            "https://kodik.info/seria/198530/9c9217db13ed885c0be7471f90d18a85/720p",
+            "https://kodik.info/seria/198531/47a70748be3491bca9c7d0df5681951b/720p",
+            "https://kodik.info/seria/198532/15e1c80673461aa704ccb777dec75ea0/720p",
+            "https://kodik.info/seria/198533/9aad6ae32a952aa17b3dae896594d376/720p",
+            "https://kodik.info/seria/198534/7ac28df1a169c3798a601486e662eb3a/720p",
+            "https://kodik.info/seria/198535/3a10741159b3348077b94fc1148ee599/720p",
+            "https://kodik.info/seria/198536/df39c62f818b551c7594606e6258454b/720p",
+            "https://kodik.info/seria/198537/338e667ba19134fb27557cb81b1bc840/720p"
+        ]
+    },
+    {
+        "title": "Overlord 2",
+        "cover_image": "overlord_2_cover.jpg",
+        "rating": "8.9",
+        "description": "Ainz Ooal Gown, the undead sorcerer formerly known as Momonga, has accepted his place in this new world.",
+        "episodes": [
+            "https://kodik.info/seria/215600/dc7e1a70ce44cec90623cde8cc6294f5/720p",
+            "https://kodik.info/seria/230815/886ba3d3e98a032ab5776a917c899ee6/720p",
+            "https://kodik.info/seria/230816/8e415c606688aa45d41c68d261948064/720p",
+            "https://kodik.info/seria/235251/15dd3f3519b2cc76ac78c98b8352eb58/720p",
+            "https://kodik.info/seria/237208/f15707f2a72a51b9318ed5ce79c21d45/720p",
+            "https://kodik.info/seria/238491/33f6b333b6d9b23532e849ab8bff1cf6/720p",
+            "https://kodik.info/seria/239966/558938d0ba75e8440ac31eebbeaff893/720p",
+            "https://kodik.info/seria/241467/0db242a99abc7c797ce516c3d537b66d/720p",
+            "https://kodik.info/seria/243390/38a77f3fd9d713f7d25554730986e2fe/720p",
+            "https://kodik.info/seria/245188/b3ef3d5b091a1f5f6a98bf87188b3397/720p",
+            "https://kodik.info/seria/246458/386e09b0cd9f0e0ff55b68ec88aad429/720p",
+            "https://kodik.info/seria/264447/ef6afd528b7fa13c3af70837bde40c2b/720p",
+            "https://kodik.info/seria/267375/353953bbdf43cb531ae9dfb756bd08fb/720p"
+        ]
+    }
+]

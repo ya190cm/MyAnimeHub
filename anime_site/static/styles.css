@@ -1,0 +1,219 @@
+/* Основні стилі */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #ff6f61;
+}
+
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffa07a;
+}
+
+/* Шапка сайту */
+header {
+    background-color: #282828;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ff6f61;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    padding: 10px 20px;
+    border: 1px solid #ff6f61;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #ff6f61;
+    color: #1c1c1c;
+}
+
+/* Кнопка пошуку */
+.search-form {
+    display: flex;
+    gap: 10px;
+}
+
+.search-form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    outline: none;
+}
+
+.search-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #ff6f61;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: #1c1c1c;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+    background-color: #ffa07a;
+}
+
+/* Стилі головної сторінки та сторінки пошуку */
+.anime-cover {
+    width: 150px; /* Зменшує ширину */
+    height: 225px; /* Зменшує висоту */
+    object-fit: cover; /* Зберігає пропорції зображення */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    margin: 0 auto; /* Центрує зображення */
+}
+
+.anime-cover:hover {
+    transform: scale(1.05);
+}
+
+.anime-list {
+    display: flex; /* Відображає елементи в ряд */
+    flex-wrap: nowrap; /* Забороняє перенесення елементів на новий рядок */
+    overflow-x: auto; /* Додає горизонтальну прокрутку, якщо потрібно */
+    gap: 20px; /* Простір між елементами */
+    padding: 20px; /* Відступи з усіх боків */
+    margin: 0 auto; /* Центрує контейнер */
+    max-width: 100%; /* Обмежує ширину до 100% контейнера */
+}
+
+.anime-item {
+    background-color: #282828;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px; /* Ширина елемента аніме */
+    transition: background-color 0.3s ease;
+}
+
+.anime-item:hover {
+    background-color: #333333;
+}
+
+.anime-item h2 {
+    font-size: 14px; /* Зменшення шрифту заголовка */
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+/* Сторінка з деталями аніме */
+.anime-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.anime-detail img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Список епізодів */
+.episode-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    overflow-x: auto; /* Додає горизонтальну прокрутку, якщо потрібно */
+    overflow-y: hidden; /* Приховує вертикальну прокрутку */
+    white-space: nowrap; /* Переміщує елементи в один ряд */
+    gap: 10px; /* Простір між елементами */
+    margin: 0 auto; /* Центрує контейнер */
+    max-width: 100%; /* Обмежує ширину до 100% контейнера */
+    border: 1px solid #ff6f61; /* Для візуального відображення контейнера */
+}
+
+.episode-list li {
+    display: inline-block; /* Зберігає елементи в одному рядку */
+    margin-right: 10px; /* Між елементами списку */
+}
+
+.episode-list a {
+    color: #ffffff;
+    background-color: #ff6f61;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block; /* Розтягує посилання на всю ширину елемента списку */
+}
+
+.episode-list a:hover {
+    background-color: #ffa07a;
+}
+
+/* Відеоплеєр */
+.episode-player {
+    margin-top: 20px;
+}
+
+/* Підвал */
+footer {
+    background-color: #282828;
+    padding: 10px;
+    text-align: center;
+    border-top: 2px solid #ff6f61;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #aaaaaa;
+}
+
+.episode-player iframe {
+    width: 100%;
+    height: 360px;
+    border: none;
+}
+
+/* Медіа-запити для адаптивності */
+@media (max-width: 600px) {
+    .anime-cover {
+        width: 120px; /* Зменшити ширину зображень на мобільних пристроях */
+        height: 180px; /* Зменшити висоту зображень на мобільних пристроях */
+    }
+
+    nav {
+        flex-direction: column; /* Розташувати навігацію вертикально на мобільних пристроях */
+    }
+
+    nav a {
+        font-size: 16px; /* Зменшити розмір шрифту для навігаційних посилань */
+        padding: 8px 16px;
+    }
+}
